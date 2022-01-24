@@ -1,0 +1,26 @@
+{
+  "name": "plextech-technical-starter",
+  "version": "1.0.0",
+  "description": "Starter Code for the PlexTech Technical Interview",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "cd test && pytest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkshatJain1/plextech-technical-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkshatJain1/plextech-technical-starter/issues"
+  },
+  "homepage": "https://github.com/AkshatJain1/plextech-technical-starter#readme",
+  "dependencies": {
+    "http": "*",
+    "nodemon": "^2.0.15",
+    "url": "^0.11.0"
+  }
+}
